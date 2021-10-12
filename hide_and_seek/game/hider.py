@@ -24,7 +24,6 @@ class Hider:
 
         self.location = random.randint(1,1000)
         self.distance = [0, 0] # start with two so get_hint always works
-        print( self.location )
 
     def watch(self, location):
         '''keeps track of how far away the seeker is by
